@@ -21,4 +21,4 @@ class Profile(models.Model):
 			img.thumbnail(output_size)
 			img.save(self.image.path)
 def function():
-	pass
+	print("hi")
